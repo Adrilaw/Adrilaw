@@ -176,6 +176,26 @@ Target → Enterprise adversary simulation expert.
 
 ---
 
+## 🛡️ Red Team Roadmap (Progress Tracker)
+
+| Year | Milestone / Goal | Status |
+|------|-----------------|--------|
+| 2026 | OTHM Diploma + BDO Junior Analyst | ⏳ Pending |
+| 2026 | eJPT v2 Certification | ⏳ Pending |
+| 2026 | HTB CPTS Path | ⏳ Pending |
+| 2027 | BSc Year 1 + Junior Pentester at BDO | ⏳ Pending |
+| 2027 | PNPT Certification | ⏳ Pending |
+| 2027 | CRTP Certification | ⏳ Pending |
+| 2028 | Junior Red Teamer (BDO) | ⏳ Pending |
+| 2028 | CRTO Certification | ⏳ Pending |
+| 2028 | Azure Fundamentals (AZ-900) | ⏳ Pending |
+| 2029 | MSc Enrollment + Advanced Operator | ⏳ Pending |
+| 2029 | OSCP Certification | ⏳ Pending |
+| 2030 | Senior Red Teamer + CRTE / OSCE3 | ⏳ Pending |
+
+---
+
+
 # 🎯 OPERATOR CAPABILITY TARGET
 
 ![Goal](https://img.shields.io/badge/TARGET-Full_Spectrum_Red_Team-black?style=for-the-badge)
