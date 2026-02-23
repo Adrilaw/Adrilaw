@@ -24,10 +24,13 @@
 ![Specialty](https://img.shields.io/badge/SPECIALTY-Hardware_Attacks-darkred?style=for-the-badge)
 
 Professional Identity → **Adrilaw**
+
 Red Team Persona → **KidPentester**
 
 Cybersecurity Analyst
+
 Offensive Security Specialist in development
+
 Kernel builder • Tool developer • Lab architect
 
 ---
@@ -41,10 +44,15 @@ I simulate real-world cyber attacks, build offensive infrastructure, and enginee
 Core disciplines:
 
 ✔ Penetration testing methodology
+
 ✔ Hardware exploitation
+
 ✔ Command & Control infrastructure
+
 ✔ Detection evasion
+
 ✔ Privilege escalation
+
 ✔ Attack path simulation
 
 Mission → Become an elite enterprise red team specialist.
