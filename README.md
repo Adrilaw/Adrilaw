@@ -163,9 +163,13 @@ All testing conducted ethically.
 ![Roadmap](https://img.shields.io/badge/PROGRESSION-Elite_Path-FF003C?style=for-the-badge)
 
 2026 → Foundations + eJPT
+
 2027 → Pentester + PNPT + CRTP
+
 2028 → Red Team Operator + CRTO
+
 2029 → Advanced Operator + OSCP + MSc
+
 2030 → Senior Red Team Specialist
 
 Target → Enterprise adversary simulation expert.
@@ -177,10 +181,15 @@ Target → Enterprise adversary simulation expert.
 ![Goal](https://img.shields.io/badge/TARGET-Full_Spectrum_Red_Team-black?style=for-the-badge)
 
 ✔ Hybrid AD / Cloud compromise
+
 ✔ Stealth long-term campaigns
+
 ✔ Custom offensive frameworks
+
 ✔ Detection engineering awareness
+
 ✔ Purple team operations
+
 ✔ Technical leadership
 
 ---
