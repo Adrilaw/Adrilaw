@@ -2,7 +2,7 @@
 <!--                    HEADER / BRAND                      -->
 <!-- ====================================================== -->
 
-<h1 align="center">⚡ Adrien Dodin | Adrilaw ⚡</h1>
+<h1 align="center">⚡ Adrien Dodin | Adrilaw | KidPentester ⚡</h1>
 <h3 align="center">Red Team Operator • Hardware Hacker • Security Researcher</h3>
 
 <p align="center">
@@ -10,215 +10,225 @@
 </p>
 
 ---
+<!-- ====================================================== -->
 
-# 🔴 Identity
+<!--                 CYBERPUNK RED TEAM HEADER              -->
 
-**Professional Name:** Adrien Dodin  
-**Handle:** Adrilaw  
-**Red Team Persona:** KidPentester  
+<!-- ====================================================== -->
 
-Cybersecurity Analyst at BDO IT Consulting Mauritius  
-Offensive Security Specialist in development  
-Hardware attack researcher  
-Surfing enthusiast 🌊  
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=FF003C&height=200&section=header&text=KIDPENTESTER&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=35"/>
+</p>
 
-I simulate real-world attacks, build offensive tools, and design controlled security labs to understand how modern adversaries operate.
+<h1 align="center">⚡ Adrien Dodin | Adrilaw ⚡</h1>
+<h3 align="center">Red Team Operator • Hardware Hacker • Security Researcher</h3>
 
----
-
-# 🧠 About Me
-
-I am deeply focused on offensive security, adversary simulation, and red team tradecraft.
-
-My work combines:
-
-- Penetration testing methodology  
-- Hardware exploitation  
-- Command & Control experimentation  
-- System-level development  
-- Detection evasion research  
-- Realistic attack lab engineering  
-
-I aim to become a professional red team specialist capable of executing full objective-based engagements across hybrid enterprise environments.
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=FF003C&center=true&vCenter=true&width=700&lines=KidPentester+%7C+Offensive+Security;Hardware+Attack+Specialist;Future+Enterprise+Red+Team+Operator;Building+Real+World+Attack+Infrastructure" />
+</p>
 
 ---
 
-# 🏄 Life Outside Security
+# 🧬 OPERATOR IDENTITY
 
-When I’m not hacking systems, I’m surfing waves.  
-Surfing and red teaming share the same mindset:
+![Role](https://img.shields.io/badge/ROLE-Red_Team_Operator-FF003C?style=for-the-badge)
+![Status](https://img.shields.io/badge/STATUS-Active_Training-black?style=for-the-badge)
+![Specialty](https://img.shields.io/badge/SPECIALTY-Hardware_Attacks-darkred?style=for-the-badge)
 
-✔ patience  
-✔ timing  
-✔ flow  
-✔ control under pressure  
+Professional Identity → **Adrilaw**
+Red Team Persona → **KidPentester**
 
-Ocean discipline translates directly into operator discipline.
-
----
-
-# 💼 Professional Experience
-
-Cybersecurity Analyst at BDO IT Consulting Mauritius  
-
-Responsibilities include:
-
-- Studying penetration testing reports  
-- Supporting vulnerability analysis  
-- Learning risk & control frameworks (ISO 27001, NIST)  
-- Observing red team methodology  
-- Developing technical security skills in consulting environments  
-
-Career objective: progress internally to Red Team Specialist.
+Cybersecurity Analyst
+Offensive Security Specialist in development
+Kernel builder • Tool developer • Lab architect
 
 ---
 
-# 🧩 Major Technical Work
+# 🧠 ABOUT ME
 
-✔ Built custom Kali NetHunter kernel for Samsung J8  
-✔ Offensive security automation tools  
-✔ HID / BadUSB payload development  
-✔ Command & Control experimentation  
-✔ Security lab infrastructure building  
-✔ Red team simulation environments  
+![Mindset](https://img.shields.io/badge/MINDSET-Adversary_Simulation-red?style=flat-square)
 
----
+I simulate real-world cyber attacks, build offensive infrastructure, and engineer controlled environments to study how modern adversaries operate inside enterprise systems.
 
-# 🛠 Programming & Technical Stack
+Core disciplines:
 
-### Operating Systems
-Linux (Kali, Parrot, Arch)  
-Windows enterprise environments  
+✔ Penetration testing methodology
+✔ Hardware exploitation
+✔ Command & Control infrastructure
+✔ Detection evasion
+✔ Privilege escalation
+✔ Attack path simulation
 
-### Scripting
-Python  
-PowerShell  
-Bash  
-
-### Currently Learning
-JavaScript  
-SQL  
-
-### Security Domains
-Red Team Operations  
-Active Directory Attacks  
-Hardware Exploitation  
-Privilege Escalation  
-Social Engineering Simulation  
+Mission → Become an elite enterprise red team specialist.
 
 ---
 
-# 🎯 Current Focus
+# 🏄 LIFE PHILOSOPHY
 
-- Windows privilege escalation  
-- Active Directory attack chains  
-- USB / HID offensive research  
-- Detection evasion techniques  
-- Command & Control infrastructure  
-- Hybrid enterprise attack simulation  
+![Surf](https://img.shields.io/badge/ENERGY-Ocean_Driven-00BFFF?style=flat-square)
 
----
+Surfer mentality applied to red teaming:
 
-# 🔬 Security Labs & Research
+Flow
+Timing
+Precision
+Patience
+Control under pressure
 
-I build controlled environments to simulate:
-
-✔ initial compromise  
-✔ lateral movement  
-✔ persistence  
-✔ C2 communication  
-✔ detection vs evasion  
-✔ physical attack vectors  
-
-All research conducted ethically and in authorized environments.
+Attack execution requires the same awareness as reading waves.
 
 ---
 
-# 🧭 RED TEAM ROADMAP
+# 💼 PROFESSIONAL EXPERIENCE
 
-Diploma → BSc → MSc → Senior Red Teamer  
+![Work](https://img.shields.io/badge/OCCUPATION-Cybersecurity_Analyst-black?style=for-the-badge)
 
-Progression:
+Security consulting environment exposure:
 
-2026 — Foundations + eJPT  
-2027 — Pentester + PNPT + CRTP  
-2028 — Red Team Operator + CRTO  
-2029 — Advanced Operator + OSCP + MSc  
-2030 — Senior Red Team Specialist  
+✔ penetration testing reports
+✔ vulnerability analysis
+✔ risk frameworks (ISO 27001 / NIST)
+✔ enterprise security operations
+✔ red team methodology observation
 
-End goal: elite enterprise red team operator.
-
----
-
-# 🚀 Career Vision
-
-Become a specialist capable of:
-
-✔ compromising hybrid AD / cloud environments  
-✔ running stealth multi-month campaigns  
-✔ building custom offensive frameworks  
-✔ designing purple team operations  
-✔ mentoring new operators  
-✔ publishing security research  
+Career path → Red Team Specialist.
 
 ---
 
-# 🧑‍💻 GitHub Activity
+# 🔧 MAJOR TECHNICAL PROJECTS
 
-I publish:
+![Build](https://img.shields.io/badge/PROJECTS-Offensive_Engineering-FF003C?style=flat-square)
 
-- offensive security tools  
-- red team experiments  
-- hardware attack payloads  
-- security research  
-- lab documentation  
-
-Pinned repositories show my main work.
-
----
-
-# 🤝 Collaboration
-
-I’m open to collaborating on:
-
-- offensive tooling  
-- red team labs  
-- hardware hacking research  
-- adversary simulation frameworks  
+✔ Custom Kali NetHunter kernel (Samsung J8)
+✔ HID / BadUSB attack payloads
+✔ Offensive automation tools
+✔ Command & Control experiments
+✔ Red team simulation labs
+✔ Security research environments
 
 ---
 
-# 💬 Ask Me About
+# 🛠 TECH STACK
 
-Pentesting  
-Kali NetHunter  
-Kernel building  
-HID attacks  
-Red team labs  
-Security automation  
+### 💻 Systems
+
+![Linux](https://img.shields.io/badge/Linux-black?style=for-the-badge\&logo=linux)
+![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge\&logo=windows)
+![Kali](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge\&logo=kalilinux)
+
+### ⚙️ Languages
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge\&logo=python)
+![PowerShell](https://img.shields.io/badge/PowerShell-012456?style=for-the-badge\&logo=powershell)
+![Bash](https://img.shields.io/badge/Bash-black?style=for-the-badge\&logo=gnubash)
+
+### 📚 Learning
+
+![JavaScript](https://img.shields.io/badge/JavaScript-yellow?style=for-the-badge\&logo=javascript)
+![SQL](https://img.shields.io/badge/SQL-blue?style=for-the-badge\&logo=mysql)
 
 ---
 
-# 📫 Contact
+# 🔬 SECURITY RESEARCH LABS
 
-Email:adrien111dodin@gmail.com
-LinkedIn:https://www.linkedin.com/in/dodin-mel-adrien-lawrence-enzo-5568b91b5/
+![Lab](https://img.shields.io/badge/ENVIRONMENT-Controlled_Testing-darkred?style=flat-square)
+
+Simulating full attack lifecycle:
+
+Initial access
+Privilege escalation
+Lateral movement
+Persistence
+C2 communication
+Detection evasion
+Physical compromise
+
+All testing conducted ethically.
 
 ---
 
-# ⚠️ Ethical Use
+# 🧭 RED TEAM MASTER ROADMAP
 
-All tools and research are strictly for:
+![Roadmap](https://img.shields.io/badge/PROGRESSION-Elite_Path-FF003C?style=for-the-badge)
 
-✔ education  
-✔ authorized testing  
-✔ research  
-✔ controlled lab environments  
+2026 → Foundations + eJPT
+2027 → Pentester + PNPT + CRTP
+2028 → Red Team Operator + CRTO
+2029 → Advanced Operator + OSCP + MSc
+2030 → Senior Red Team Specialist
 
-Illegal use is not supported.
+Target → Enterprise adversary simulation expert.
+
+---
+
+# 🎯 OPERATOR CAPABILITY TARGET
+
+![Goal](https://img.shields.io/badge/TARGET-Full_Spectrum_Red_Team-black?style=for-the-badge)
+
+✔ Hybrid AD / Cloud compromise
+✔ Stealth long-term campaigns
+✔ Custom offensive frameworks
+✔ Detection engineering awareness
+✔ Purple team operations
+✔ Technical leadership
+
+---
+
+# 📊 OPERATOR METRICS
+
+<p align="center">
+<img src="https://github-readme-stats.vercel.app/api?username=Adrilaw&show_icons=true&theme=tokyonight&hide_border=true"/>
+</p>
+
+<p align="center">
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Adrilaw&theme=tokyonight&hide_border=true"/>
+</p>
+
+<p align="center">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Adrilaw&theme=tokyo-night&hide_border=true"/>
+</p>
+
+---
+
+# 🤝 COLLABORATION
+
+![Collab](https://img.shields.io/badge/OPEN_TO-Research_Collaboration-red?style=flat-square)
+
+Offensive tooling
+Red team labs
+Hardware hacking
+Adversary simulation frameworks
+
+---
+
+# 💬 ASK ME ABOUT
+
+Pentesting
+Kali NetHunter
+Kernel building
+HID attacks
+Red team methodology
+Security automation
+
+---
+
+# ⚠️ ETHICAL DIRECTIVE
+
+![Ethics](https://img.shields.io/badge/USE-Authorized_Only-black?style=for-the-badge)
+
+Education
+Research
+Authorized testing
+Controlled environments
+
+Unauthorized activity is not supported.
 
 ---
 
 <p align="center">
-⭐ If you value real offensive security research, follow the journey.
+⭐ Follow the evolution of a future elite red team operator.
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=FF003C&height=120&section=footer"/>
 </p>
