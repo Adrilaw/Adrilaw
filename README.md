@@ -82,9 +82,13 @@ Attack execution requires the same awareness as reading waves.
 Security consulting environment exposure:
 
 ✔ penetration testing reports
+
 ✔ vulnerability analysis
+
 ✔ risk frameworks (ISO 27001 / NIST)
+
 ✔ enterprise security operations
+
 ✔ red team methodology observation
 
 Career path → Red Team Specialist.
@@ -96,10 +100,15 @@ Career path → Red Team Specialist.
 ![Build](https://img.shields.io/badge/PROJECTS-Offensive_Engineering-FF003C?style=flat-square)
 
 ✔ Custom Kali NetHunter kernel (Samsung J8)
+
 ✔ HID / BadUSB attack payloads
+
 ✔ Offensive automation tools
+
 ✔ Command & Control experiments
+
 ✔ Red team simulation labs
+
 ✔ Security research environments
 
 ---
@@ -110,7 +119,7 @@ Career path → Red Team Specialist.
 
 ![Linux](https://img.shields.io/badge/Linux-black?style=for-the-badge\&logo=linux)
 ![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge\&logo=windows)
-![Kali](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge\&logo=kalilinux)
+![Parrot OS](https://img.shields.io/badge/Parrot_Security_OS-15E0ED?style=for-the-badge&logo=linux)
 
 ### ⚙️ Languages
 
@@ -132,11 +141,17 @@ Career path → Red Team Specialist.
 Simulating full attack lifecycle:
 
 Initial access
+
 Privilege escalation
+
 Lateral movement
+
 Persistence
+
 C2 communication
+
 Detection evasion
+
 Physical compromise
 
 All testing conducted ethically.
