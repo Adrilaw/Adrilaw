@@ -1,16 +1,4 @@
 <!-- ====================================================== -->
-<!--                    HEADER / BRAND                      -->
-<!-- ====================================================== -->
-
-<h1 align="center">⚡ Adrien Dodin | Adrilaw | KidPentester ⚡</h1>
-<h3 align="center">Red Team Operator • Hardware Hacker • Security Researcher</h3>
-
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=FF003C&center=true&vCenter=true&width=700&lines=KidPentester+%7C+Offensive+Security;Red+Team+Operator+In+Training;Hardware+Attack+Specialist;Building+Real+World+Security+Tools;Future+BDO+Red+Team+Specialist" />
-</p>
-
----
-<!-- ====================================================== -->
 
 <!--                 CYBERPUNK RED TEAM HEADER              -->
 
@@ -20,7 +8,7 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=FF003C&height=200&section=header&text=KIDPENTESTER&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=35"/>
 </p>
 
-<h1 align="center">⚡ Adrien Dodin | Adrilaw ⚡</h1>
+<h1 align="center">⚡ Adrien Dodin | Adrilaw | KidPentester⚡</h1>
 <h3 align="center">Red Team Operator • Hardware Hacker • Security Researcher</h3>
 
 <p align="center">
