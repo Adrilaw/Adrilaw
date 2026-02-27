@@ -111,6 +111,8 @@ Career path → Red Team Specialist.
 
 ✔ Security research environments
 
+✔ Built MedusaPhisher a complex phishing framework
+
 ---
 
 # 🛠 TECH STACK
