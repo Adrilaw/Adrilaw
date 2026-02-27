@@ -164,15 +164,15 @@ All testing conducted ethically.
 
 ![Roadmap](https://img.shields.io/badge/PROGRESSION-Elite_Path-FF003C?style=for-the-badge)
 
-2026 → Foundations + eJPT
+2026 → Diploma + HTB Foundations + eJPT
 
-2027 → Pentester + PNPT + CRTP
+2027 → BSC + PNPT + CRTP
 
-2028 → Red Team Operator + CRTO
+2028 → MSC + CRTO
 
-2029 → Advanced Operator + OSCP + MSc
+2029 → OSCP + CRTE
 
-2030 → Senior Red Team Specialist
+2030 → Senior Red Team Specialist + OSCE
 
 Target → Enterprise adversary simulation expert.
 
@@ -191,7 +191,7 @@ Target → Enterprise adversary simulation expert.
 | 2028 | Junior Red Teamer (BDO) | ⏳ Pending |
 | 2028 | CRTO Certification | ⏳ Pending |
 | 2028 | Azure Fundamentals (AZ-900) | ⏳ Pending |
-| 2029 | MSc Enrollment + Advanced Operator | ⏳ Pending |
+| 2028 | MSc Enrollment + Advanced Operator | ⏳ Pending |
 | 2029 | OSCP Certification | ⏳ Pending |
 | 2030 | Senior Red Teamer + CRTE / OSCE3 | ⏳ Pending |
 
