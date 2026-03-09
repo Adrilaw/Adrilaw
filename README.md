@@ -178,22 +178,24 @@ Target → Enterprise adversary simulation expert.
 
 ---
 
-## 🛡️ Red Team Roadmap (Progress Tracker)
+# 🛡️ Red Team Roadmap: The "Kidpentester" Path (2026-2030)
+---
 
-| Year | Milestone / Goal | Status |
-|------|-----------------|--------|
-| 2026 | OTHM Diploma + BDO Junior Analyst | ⏳ Pending |
-| 2026 | eJPT v2 Certification | ⏳ Pending |
-| 2026 | HTB CPTS Path | ⏳ Pending |
-| 2027 | BSc Year 1 + Junior Pentester at BDO | ⏳ Pending |
-| 2027 | PNPT Certification | ⏳ Pending |
-| 2027 | CRTP Certification | ⏳ Pending |
-| 2028 | Junior Red Teamer (BDO) | ⏳ Pending |
-| 2028 | CRTO Certification | ⏳ Pending |
-| 2028 | Azure Fundamentals (AZ-900) | ⏳ Pending |
-| 2028 | MSc Enrollment + Advanced Operator | ⏳ Pending |
-| 2029 | OSCP Certification | ⏳ Pending |
-| 2030 | Senior Red Teamer + CRTE / OSCE3 | ⏳ Pending |
+| Year | Phase | Milestone / Goal | Status | Estimated Cost (MUR) |
+| :--- | :--- | :--- | :--- | :--- |
+| **2026** | **Foundations** | OTHM Level 5 Diploma (UK Versity) | ⏳ In Progress | Rs 70,000+ |
+| **2026** | **Operator** | **CRTP (Certified Red Team Professional)** | 🎯 **APRIL 2026** | Rs 14,050 |
+| **2026** | **Operator** | **CRTO (Certified Red Team Operator)** | ⏳ Q4 2026 | Rs 22,630 |
+| **2027** | **Full-Stack** | BSc (Hons) Top-up Enrollment | ⏳ Q1 2027 | TBD |
+| **2027** | **Web Mastery** | **BSCP (Burp Suite Certified Practitioner)** | ⏳ Q1 2027 | Rs 4,650* |
+| **2027** | **Full-Stack** | **OSCP+ (OffSec Certified Professional)** | ⏳ Q3 2027 | Rs 82,200 |
+| **2028** | **Specialist** | BDO Red Team Specialist Transition | ⏳ Q1 2028 | -- |
+| **2028** | **Specialist** | **CRTM (Certified Red Team Master)** | ⏳ Q2 2028 | Rs 32,850 |
+| **2028** | **Cloud** | **AZ-900 (Azure Fundamentals)** | ⏳ Q4 2028 | Rs 5,000 |
+| **2029** | **Advanced** | MSc Cybersecurity Enrollment | ⏳ Q1 2029 | TBD |
+| **2029** | **Advanced** | **CRTL (Red Team Lead / CRTO II)** | ⏳ Q3 2029 | Rs 26,350 |
+| **2030** | **Elite** | MSc Graduation (Age 23) | ⏳ Q2 2030 | -- |
+| **2030** | **Elite** | **OSEP (OffSec Experienced Pentester)** | ⏳ Q3 2030 | Rs 82,200 |
 
 ---
 
