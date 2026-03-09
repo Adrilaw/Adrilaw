@@ -183,19 +183,19 @@ Target → Enterprise adversary simulation expert.
 
 | Year | Phase | Milestone / Goal | Status | Estimated Cost (MUR) |
 | :--- | :--- | :--- | :--- | :--- |
-| **2026** | **Foundations** | OTHM Level 5 Diploma (UK Versity) | ⏳ In Progress | Rs 70,000+ |
+| **2026** | **Foundations** | OTHM Level 5 Diploma (UK Versity) | ⏳ | Rs 70,000+ |
 | **2026** | **Operator** | **CRTP (Certified Red Team Professional)** | 🎯 **APRIL 2026** | Rs 14,050 |
-| **2026** | **Operator** | **CRTO (Certified Red Team Operator)** | ⏳ Q4 2026 | Rs 22,630 |
-| **2027** | **Full-Stack** | BSc (Hons) Top-up Enrollment | ⏳ Q1 2027 | TBD |
-| **2027** | **Web Mastery** | **BSCP (Burp Suite Certified Practitioner)** | ⏳ Q1 2027 | Rs 4,650* |
-| **2027** | **Full-Stack** | **OSCP+ (OffSec Certified Professional)** | ⏳ Q3 2027 | Rs 82,200 |
-| **2028** | **Specialist** | BDO Red Team Specialist Transition | ⏳ Q1 2028 | -- |
-| **2028** | **Specialist** | **CRTM (Certified Red Team Master)** | ⏳ Q2 2028 | Rs 32,850 |
-| **2028** | **Cloud** | **AZ-900 (Azure Fundamentals)** | ⏳ Q4 2028 | Rs 5,000 |
-| **2029** | **Advanced** | MSc Cybersecurity Enrollment | ⏳ Q1 2029 | TBD |
-| **2029** | **Advanced** | **CRTL (Red Team Lead / CRTO II)** | ⏳ Q3 2029 | Rs 26,350 |
-| **2030** | **Elite** | MSc Graduation (Age 23) | ⏳ Q2 2030 | -- |
-| **2030** | **Elite** | **OSEP (OffSec Experienced Pentester)** | ⏳ Q3 2030 | Rs 82,200 |
+| **2026** | **Operator** | **CRTO (Certified Red Team Operator)** | ⏳ | Rs 22,630 |
+| **2027** | **Full-Stack** | BSc (Hons) Top-up Enrollment | ⏳  | TBD |
+| **2027** | **Web Mastery** | **BSCP (Burp Suite Certified Practitioner)** | ⏳ | Rs 4,650* |
+| **2027** | **Full-Stack** | **OSCP+ (OffSec Certified Professional)** | ⏳ | Rs 82,200 |
+| **2028** | **Specialist** | BDO Red Team Specialist Transition | ⏳ | -- |
+| **2028** | **Specialist** | **CRTM (Certified Red Team Master)** | ⏳ | Rs 32,850 |
+| **2028** | **Cloud** | **AZ-900 (Azure Fundamentals)** | ⏳ | Rs 5,000 |
+| **2029** | **Advanced** | MSc Cybersecurity Enrollment | ⏳ | TBD |
+| **2029** | **Advanced** | **CRTL (Red Team Lead / CRTO II)** | ⏳ | Rs 26,350 |
+| **2030** | **Elite** | MSc Graduation (Age 23) | ⏳ | -- |
+| **2030** | **Elite** | **OSEP (OffSec Experienced Pentester)** | ⏳| Rs 82,200 |
 
 ---
 
