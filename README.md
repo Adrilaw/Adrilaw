@@ -167,8 +167,8 @@ All testing conducted ethically.
 
 **2026** → Diploma + HTB Foundations + CRTP + CRTO  
 **2027** → BSc + BSCP + OSCP+  
-**2028** → BDO Specialist Transition + CRTM  
-**2029** → MSc Enrollment + CRTL  
+**2028** → MSc Enrollment + CRTM  
+**2029** → CRTL + Advanced Evasion  
 **2030** → Senior Red Team Specialist + OSEP (MSc Graduation)
 
 **Target:** Enterprise Adversary Simulation Expert.
@@ -177,20 +177,22 @@ All testing conducted ethically.
 
 # 🛡️ Red Team Roadmap: The "Kidpentester" Path (2026-2030)
 
-| Year | Phase | Milestone / Goal | Status | Estimated Cost (MUR) |
-| :--- | :--- | :--- | :--- | :--- |
-| **2026** | **Foundations** | OTHM Level 5 Diploma (UK Versity) | ⏳ | Rs 70,000+ |
-| **2026** | **Operator** | **CRTP (Certified Red Team Professional)** | 🎯 **APRIL 2026** | Rs 14,050 |
-| **2026** | **Operator** | **CRTO (Certified Red Team Operator)** | ⏳ | Rs 22,630 |
-| **2027** | **Full-Stack** | BSc (Hons) Top-up Enrollment | ⏳ | TBD |
-| **2027** | **Web Mastery** | **BSCP (Burp Suite Certified Practitioner)** | ⏳ | Rs 4,800 |
-| **2027** | **Full-Stack** | **OSCP+ (OffSec Certified Professional)** | ⏳ | Rs 82,200 |
-| **2028** | **Specialist** | BDO Red Team Specialist Transition | ⏳ | -- |
-| **2028** | **Specialist** | **CRTM (Certified Red Team Master)** | ⏳ | Rs 32,850 |
-| **2029** | **Advanced** | MSc Cybersecurity Enrollment | ⏳ | TBD |
-| **2029** | **Advanced** | **CRTL (Red Team Lead / CRTO II)** | ⏳ | Rs 26,350 |
-| **2030** | **Elite** | MSc Graduation (Age 23) | ⏳ | -- |
-| **2030** | **Elite** | **OSEP (OffSec Experienced Pentester)** | ⏳ | Rs 82,200 |
+| Year | Phase | Milestone / Goal | Status |
+| :--- | :--- | :--- | :--- |
+| **2026** | **Foundations** | OTHM Level 5 Diploma (UK Versity) | ⏳ |
+| **2026** | **Operator** | **CRTP (Certified Red Team Professional)** | 🎯 **APRIL 2026** |
+| **2026** | **Operator** | **CRTO (Certified Red Team Operator)** | ⏳ |
+| **2027** | **Full-Stack** | BSc (Hons) Top-up Enrollment | ⏳ |
+| **2027** | **Web Mastery** | **BSCP (Burp Suite Certified Practitioner)** | ⏳ |
+| **2027** | **Full-Stack** | **OSCP+ (OffSec Certified Professional)** | ⏳ |
+| **2028** | **Specialist** | **MSc Cybersecurity Enrollment** | ⏳ |
+| **2028** | **Specialist** | **CRTM (Certified Red Team Master)** | ⏳ |
+| **2029** | **Advanced** | BDO Red Team Specialist Transition | ⏳ |
+| **2029** | **Advanced** | **CRTL (Red Team Lead / CRTO II)** | ⏳ |
+| **2030** | **Elite** | **MSc Graduation (Age 23)** | 🎓 |
+| **2030** | **Elite** | **OSEP (OffSec Experienced Pentester)** | ⏳ |
+
+---
 
 ---
 # 🎯 OPERATOR CAPABILITY TARGET
