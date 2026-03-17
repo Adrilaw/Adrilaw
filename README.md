@@ -163,43 +163,36 @@ All testing conducted ethically.
 # 🧭 RED TEAM MASTER ROADMAP
 
 ![Roadmap](https://img.shields.io/badge/PROGRESSION-Elite_Path-FF003C?style=for-the-badge)
+![Status](https://img.shields.io/badge/STATUS-Active_Engagement-00FF41?style=for-the-badge)
 
-2026 → Diploma + HTB Foundations + eJPT
+**2026** → Diploma + HTB Foundations + CRTP + CRTO  
+**2027** → BSc + BSCP + OSCP+  
+**2028** → BDO Specialist Transition + CRTM  
+**2029** → MSc Enrollment + CRTL  
+**2030** → Senior Red Team Specialist + OSEP (MSc Graduation)
 
-2027 → BSC + PNPT + CRTP
-
-2028 → MSC + CRTO
-
-2029 → OSCP + CRTE
-
-2030 → Senior Red Team Specialist + OSCE
-
-Target → Enterprise adversary simulation expert.
+**Target:** Enterprise Adversary Simulation Expert.
 
 ---
 
 # 🛡️ Red Team Roadmap: The "Kidpentester" Path (2026-2030)
----
 
 | Year | Phase | Milestone / Goal | Status | Estimated Cost (MUR) |
 | :--- | :--- | :--- | :--- | :--- |
 | **2026** | **Foundations** | OTHM Level 5 Diploma (UK Versity) | ⏳ | Rs 70,000+ |
 | **2026** | **Operator** | **CRTP (Certified Red Team Professional)** | 🎯 **APRIL 2026** | Rs 14,050 |
 | **2026** | **Operator** | **CRTO (Certified Red Team Operator)** | ⏳ | Rs 22,630 |
-| **2027** | **Full-Stack** | BSc (Hons) Top-up Enrollment | ⏳  | TBD |
-| **2027** | **Web Mastery** | **BSCP (Burp Suite Certified Practitioner)** | ⏳ | Rs 4,650* |
+| **2027** | **Full-Stack** | BSc (Hons) Top-up Enrollment | ⏳ | TBD |
+| **2027** | **Web Mastery** | **BSCP (Burp Suite Certified Practitioner)** | ⏳ | Rs 4,800 |
 | **2027** | **Full-Stack** | **OSCP+ (OffSec Certified Professional)** | ⏳ | Rs 82,200 |
 | **2028** | **Specialist** | BDO Red Team Specialist Transition | ⏳ | -- |
 | **2028** | **Specialist** | **CRTM (Certified Red Team Master)** | ⏳ | Rs 32,850 |
-| **2028** | **Cloud** | **AZ-900 (Azure Fundamentals)** | ⏳ | Rs 5,000 |
 | **2029** | **Advanced** | MSc Cybersecurity Enrollment | ⏳ | TBD |
 | **2029** | **Advanced** | **CRTL (Red Team Lead / CRTO II)** | ⏳ | Rs 26,350 |
 | **2030** | **Elite** | MSc Graduation (Age 23) | ⏳ | -- |
-| **2030** | **Elite** | **OSEP (OffSec Experienced Pentester)** | ⏳| Rs 82,200 |
+| **2030** | **Elite** | **OSEP (OffSec Experienced Pentester)** | ⏳ | Rs 82,200 |
 
 ---
-
-
 # 🎯 OPERATOR CAPABILITY TARGET
 
 ![Goal](https://img.shields.io/badge/TARGET-Full_Spectrum_Red_Team-black?style=for-the-badge)
