@@ -166,9 +166,9 @@ All testing conducted ethically.
 ![Status](https://img.shields.io/badge/STATUS-Active_Engagement-00FF41?style=for-the-badge)
 
 **2026** → Diploma + HTB Foundations + CRTP + CRTO  
-**2027** → BSc + BSCP + OSCP+  
-**2028** → MSc Enrollment + CRTM  
-**2029** → CRTL + Advanced Evasion  
+**2027** → BSc + BSCP + OSCP + PAPA + HTB Certified Wireless Expert
+**2028** → MSc Enrollment + CRTE + CRTM  
+**2029** → CRTL + Advanced Evasion + custom hardware tool development
 **2030** → Senior Red Team Specialist + OSEP (MSc Graduation)
 
 **Target:** Enterprise Adversary Simulation Expert.
@@ -183,15 +183,14 @@ All testing conducted ethically.
 | **2026** | **Operator** | **CRTP (Certified Red Team Professional)** | 🎯 **APRIL 2026** |
 | **2026** | **Operator** | **CRTO (Certified Red Team Operator)** | ⏳ |
 | **2027** | **Full-Stack** | BSc (Hons) Top-up Enrollment | ⏳ |
-| **2027** | **Web Mastery** | **BSCP (Burp Suite Certified Practitioner)** | ⏳ |
+| **2027** | **Web & AI** | **BSCP (Burp Suite Certified)** + **PAPA (AI Pentesting)** | ⏳ |
 | **2027** | **Full-Stack** | **OSCP+ (OffSec Certified Professional)** | ⏳ |
 | **2028** | **Specialist** | **MSc Cybersecurity Enrollment** | ⏳ |
-| **2028** | **Specialist** | **CRTM (Certified Red Team Master)** | ⏳ |
-| **2029** | **Advanced** | BDO Red Team Specialist Transition | ⏳ |
+| **2028** | **Specialist** | **CRTE (Red Team Expert)** + **CRTM (Red Team Master)** | ⏳ |
+| **2029** | **Advanced** | **HTB Certified Wireless Expert** + BDO Red Team Transition | ⏳ |
 | **2029** | **Advanced** | **CRTL (Red Team Lead / CRTO II)** | ⏳ |
 | **2030** | **Elite** | **MSc Graduation (Age 23)** | 🎓 |
 | **2030** | **Elite** | **OSEP (OffSec Experienced Pentester)** | ⏳ |
-
 ---
 
 ---
