@@ -116,31 +116,17 @@ Security consulting environment exposure:
 
 
 | Year | Phase | Milestone / Goal | Status |
-
-| :--- | :--- | :--- | :--- |
-
 | **2026** | **Foundations** | OTHM Level 5 Diploma (UK Versity) | ⏳ |
-
 | **2026** | **Operator** | **CRTP (Certified Red Team Professional)** | 🎯 **APRIL 2026** |
-
 | **2026** | **Operator** | **CRTO (Certified Red Team Operator)** | ⏳ |
-
 | **2027** | **Full-Stack** | BSc (Hons) Top-up Enrollment | ⏳ |
-
 | **2027** | **Web & AI** | **BSCP (Burp Suite Certified)** + **PAPA (AI Pentesting)** | ⏳ |
-
 | **2027** | **Full-Stack** | **OSCP+ (OffSec Certified Professional)** | ⏳ |
-
 | **2028** | **Specialist** | **MSc Cybersecurity Enrollment** | ⏳ |
-
 | **2028** | **Specialist** | **CRTE (Red Team Expert)** + **CRTM (Red Team Master)** | ⏳ |
-
 | **2029** | **Advanced** | **HTB Certified Wireless Expert** + BDO Red Team Transition | ⏳ |
-
 | **2029** | **Advanced** | **CRTL (Red Team Lead / CRTO II)** | ⏳ |
-
 | **2030** | **Elite** | **MSc Graduation (Age 23)** | 🎓 |
-
 | **2030** | **Elite** | **OSEP (OffSec Experienced Pentester)** | ⏳ |
 
 ---
