@@ -2,7 +2,7 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=FF003C&height=200&section=header&text=KIDPENTESTER&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=35"/>
 </p>
 
-<h1 align="center">⚡ Adrien Dodin | Adrilaw | KidPentester ⚡</h1>
+<h1 align="center">⚡ Mel Adrien Lawrence Enzo Dodin | Adrilaw | KidPentester ⚡</h1>
 <h3 align="center">Red Team Operator • Hardware Hacker • Security Researcher</h3>
 
 <p align="center">
@@ -111,20 +111,37 @@ Security consulting environment exposure:
 
 ---
 
-# 🧭 RED TEAM MASTER ROADMAP (2026-2030)
+# 🛡️ Red Team Roadmap: The "Kidpentester" Path (2026-2030)
 
-![Roadmap](https://img.shields.io/badge/PROGRESSION-Elite_Path-FF003C?style=for-the-badge)
 
-| Year | Milestone / Goal | Status |
-| :--- | :--- | :--- |
-| **2026** | OTHM Level 5 Diploma (UK Versity) | ✅ |
-| **2026** | **CRTP (Certified Red Team Professional)** | 🎯 **APRIL 2026** |
-| **2026** | **CRTO (Certified Red Team Operator)** | ⏳ |
-| **2027** | BSc (Hons) Top-up Enrollment + **OSCP+** | ⏳ |
-| **2027** | **BSCP (Burp Suite)** + **PAPA (AI Pentesting)** | ⏳ |
-| **2028** | **MSc Cybersecurity Enrollment** + **CRTE** | ⏳ |
-| **2029** | **HTB Certified Wireless Expert** + **CRTL** | ⏳ |
-| **2030** | **MSc Graduation (Age 23)** + **OSEP** | 🎓 |
+
+| Year | Phase | Milestone / Goal | Status |
+
+| :--- | :--- | :--- | :--- |
+
+| **2026** | **Foundations** | OTHM Level 5 Diploma (UK Versity) | ⏳ |
+
+| **2026** | **Operator** | **CRTP (Certified Red Team Professional)** | 🎯 **APRIL 2026** |
+
+| **2026** | **Operator** | **CRTO (Certified Red Team Operator)** | ⏳ |
+
+| **2027** | **Full-Stack** | BSc (Hons) Top-up Enrollment | ⏳ |
+
+| **2027** | **Web & AI** | **BSCP (Burp Suite Certified)** + **PAPA (AI Pentesting)** | ⏳ |
+
+| **2027** | **Full-Stack** | **OSCP+ (OffSec Certified Professional)** | ⏳ |
+
+| **2028** | **Specialist** | **MSc Cybersecurity Enrollment** | ⏳ |
+
+| **2028** | **Specialist** | **CRTE (Red Team Expert)** + **CRTM (Red Team Master)** | ⏳ |
+
+| **2029** | **Advanced** | **HTB Certified Wireless Expert** + BDO Red Team Transition | ⏳ |
+
+| **2029** | **Advanced** | **CRTL (Red Team Lead / CRTO II)** | ⏳ |
+
+| **2030** | **Elite** | **MSc Graduation (Age 23)** | 🎓 |
+
+| **2030** | **Elite** | **OSEP (OffSec Experienced Pentester)** | ⏳ |
 
 ---
 
