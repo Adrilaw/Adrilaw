@@ -119,13 +119,13 @@ Security consulting environment exposure:
 
 | **2026** | **Foundations** | OTHM Level 5 Diploma (UK Versity) | ⏳ |
 
-| **2026** | **Operator** | **CRTP (Certified Red Team Professional)** | 🎯 **APRIL 2026** |
+| **2026** | **Full-Stack** | **BSc (Hons) Top-up Enrollment** | **HTB Certified Wifi Pentesting Expert** | ⏳ |
 
-| **2026** | **Operator** | **CRTO (Certified Red Team Operator)** | ⏳ |
+| **2026** | **Web & AI** | **BSCP (Burp Suite Certified)** **COAE (HTB Certified Offensive AI Expert)** + **PAPA (Practical AI Pentesting Associate)** | ⏳ |
 
-| **2027** | **Full-Stack** | BSc (Hons) Top-up Enrollment | ⏳ |
+| **2027** | **Operator** | **CRTP (Certified Red Team Professional)** | ⏳ |
 
-| **2027** | **Web & AI** | **BSCP (Burp Suite Certified)** + **PAPA (AI Pentesting)** | ⏳ |
+| **2027** | **Operator** | **CRTO (Certified Red Team Operator)** | ⏳ |
 
 | **2027** | **Full-Stack** | **OSCP+ (OffSec Certified Professional)** | ⏳ |
 
