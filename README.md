@@ -117,11 +117,11 @@ Security consulting environment exposure:
 
 | Year | Phase | Milestone / Goal | Status |
 
-| **2026** | **Foundations** | OTHM Level 5 Diploma (UK Versity) | ⏳ |
-
-| **2026** | **Full-Stack** | **BSc (Hons) Top-up Enrollment** | **HTB Certified Wifi Pentesting Expert** | ⏳ |
+| **2026** | **Foundations** | OTHM Level 5 Diploma extended in Cyber Security | ⏳ |
 
 | **2026** | **Web & AI** | **BSCP (Burp Suite Certified)** **COAE (HTB Certified Offensive AI Expert)** + **PAPA (Practical AI Pentesting Associate)** | ⏳ |
+
+| **2026** | **Full-Stack** | **BSc (Hons) Top-up Enrollment** | **HTB Certified Wifi Pentesting Expert** | ⏳ |
 
 | **2027** | **Operator** | **CRTP (Certified Red Team Professional)** | ⏳ |
 
