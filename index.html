@@ -2,28 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mel-Adrien Lawrence Enzo Dodin | Red Team Operations Portfolio</title>
     <style>
-        @page {
-            size: A4;
-            margin: 12mm 12mm 15mm 12mm;
-            background-color: #060913;
-            @bottom-left {
-                content: "SYSTEM: ALIVE // SEC-CORE: ENCRYPTED";
-                font-family: 'Courier New', Courier, monospace;
-                font-size: 7.5pt;
-                color: #00fa9a;
-                opacity: 0.4;
-            }
-            @bottom-right {
-                content: "LOG_PAGE: [0" counter(page) " // 0" counter(pages) "]";
-                font-family: 'Courier New', Courier, monospace;
-                font-size: 7.5pt;
-                color: #38bdf8;
-                opacity: 0.6;
-            }
-        }
-        
         * {
             box-sizing: border-box;
         }
@@ -33,16 +14,23 @@
             background-color: #060913;
             color: #cbd5e1;
             margin: 0;
-            padding: 0;
-            font-size: 10pt;
-            line-height: 1.45;
+            padding: 20px;
+            font-size: 15px;
+            line-height: 1.6;
+        }
+
+        /* Portfolio Wrapper to optimize viewing width on laptop screens */
+        .portfolio-container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 10px;
         }
 
         /* Top High-Tech Multi-Color Diagnostic Bar */
         .top-diagnostic-bar {
             height: 6px;
             background: linear-gradient(90deg, #34d399 0%, #38bdf8 40%, #a855f7 80%, #f43f5e 100%);
-            margin: -12mm -12mm 15px -12mm;
+            margin-bottom: 20px;
         }
 
         /* Visual Header Element mimicking an operations monitor dashboard */
@@ -50,8 +38,8 @@
             background-color: #0b1120;
             border: 1px solid #1e293b;
             border-left: 4px solid #34d399;
-            padding: 20px;
-            margin-bottom: 22px;
+            padding: 24px;
+            margin-bottom: 25px;
             position: relative;
         }
 
@@ -59,36 +47,42 @@
         .terminal-dashboard-header::after {
             content: "[GRID_LOC: MU-RED.PRKT]";
             position: absolute;
-            top: 6px;
-            right: 8px;
-            font-size: 6.5pt;
+            top: 8px;
+            right: 12px;
+            font-size: 11px;
             color: #475569;
             letter-spacing: 1px;
         }
 
         .header-layout {
-            display: table;
-            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        @media (min-width: 768px) {
+            .header-layout {
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: flex-start;
+            }
         }
 
         .header-left {
-            display: table-cell;
-            vertical-align: top;
+            flex: 1;
         }
 
         .header-right {
-            display: table-cell;
-            vertical-align: top;
-            text-align: right;
-            font-size: 8.5pt;
+            font-size: 13px;
             color: #94a3b8;
-            line-height: 1.6;
+            line-height: 1.8;
+            min-width: 280px;
         }
 
         h1 {
             color: #ffffff;
-            font-size: 18pt;
-            margin: 0 0 4px 0;
+            font-size: 24px;
+            margin: 0 0 6px 0;
             text-transform: uppercase;
             letter-spacing: 1.5px;
             text-shadow: 0 0 8px rgba(52, 211, 153, 0.3);
@@ -96,27 +90,29 @@
 
         .sub-identity {
             color: #34d399;
-            font-size: 11pt;
+            font-size: 15px;
             font-weight: bold;
-            margin-bottom: 10px;
+            margin-bottom: 14px;
             letter-spacing: 1px;
         }
 
         /* Visual Security Tags/Badges */
         .visual-tag-container {
-            margin-top: 8px;
+            margin-top: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
         }
 
         .tech-tag {
             display: inline-block;
-            font-size: 7.5pt;
-            padding: 2px 7px;
+            font-size: 11px;
+            padding: 4px 10px;
             font-weight: bold;
             background-color: #022c22;
             color: #34d399;
             border: 1px solid #059669;
             border-radius: 2px;
-            margin-right: 6px;
             text-transform: uppercase;
         }
 
@@ -129,14 +125,13 @@
         /* Section Headings Styled as System Prompts */
         .section-header-node {
             color: #ffffff;
-            font-size: 11.5pt;
+            font-size: 15px;
             text-transform: uppercase;
             letter-spacing: 1.5px;
-            margin: 24px 0 12px 0;
-            padding: 4px 8px;
+            margin: 30px 0 15px 0;
+            padding: 6px 12px;
             background-color: #0f172a;
             border-left: 3px solid #38bdf8;
-            page-break-after: avoid;
         }
 
         .section-header-node span {
@@ -145,39 +140,35 @@
         }
 
         p {
-            margin: 0 0 12px 0;
+            margin: 0 0 15px 0;
             color: #94a3b8;
             text-align: justify;
         }
 
-        /* Split-screen visual panels */
+        /* Desktop side-by-side panels using Grid instead of rigid tables */
         .panel-container {
-            display: table;
-            width: 100%;
-            margin-bottom: 15px;
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+
+        @media (min-width: 768px) {
+            .panel-container {
+                grid-template-columns: 1fr 1fr;
+            }
         }
 
         .panel-node {
-            display: table-cell;
-            width: 50%;
-            vertical-align: top;
-            page-break-inside: avoid;
-        }
-
-        .panel-node:first-child {
-            padding-right: 12px;
-        }
-
-        .panel-node:last-child {
-            padding-left: 12px;
-            border-left: 1px solid #1e293b;
+            display: flex;
+            flex-direction: column;
         }
 
         .panel-title-bar {
-            font-size: 8.5pt;
+            font-size: 12px;
             color: #38bdf8;
             background-color: #090d16;
-            padding: 3px 8px;
+            padding: 6px 12px;
             border: 1px solid #1e293b;
             border-bottom: none;
             text-transform: uppercase;
@@ -187,16 +178,17 @@
         .panel-body-box {
             border: 1px solid #1e293b;
             background-color: #030712;
-            padding: 12px 12px 6px 12px;
+            padding: 16px;
+            flex-grow: 1;
         }
 
         ul {
-            margin: 0 0 8px 0;
-            padding-left: 16px;
+            margin: 0 0 10px 0;
+            padding-left: 20px;
         }
 
         li {
-            margin-bottom: 6px;
+            margin-bottom: 8px;
             color: #cbd5e1;
             list-style-type: square;
         }
@@ -214,92 +206,96 @@
             background-color: #090d16;
             border: 1px solid #1e293b;
             border-right: 3px solid #f43f5e;
-            padding: 14px;
-            margin-bottom: 12px;
-            page-break-inside: avoid;
+            padding: 16px;
+            margin-bottom: 15px;
             position: relative;
         }
 
         .infra-meta-node {
-            position: absolute;
-            top: 14px;
-            right: 14px;
-            font-size: 8pt;
+            font-size: 11px;
             color: #475569;
             font-weight: bold;
+            margin-bottom: 6px;
+        }
+
+        @media (min-width: 768px) {
+            .infra-meta-node {
+                position: absolute;
+                top: 16px;
+                right: 16px;
+                margin-bottom: 0;
+            }
         }
 
         .infra-title {
             font-weight: bold;
             color: #ffffff;
-            font-size: 11pt;
-            margin-bottom: 2px;
+            font-size: 16px;
+            margin-bottom: 4px;
         }
 
         .infra-subtitle {
-            font-size: 8.5pt;
+            font-size: 12px;
             color: #a855f7;
-            margin-bottom: 8px;
+            margin-bottom: 10px;
             text-transform: uppercase;
             letter-spacing: 0.5px;
         }
 
         /* Visual Certification Matrix Grid */
         .matrix-table {
-            display: table;
-            width: 100%;
-            margin-top: 5px;
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 15px;
+            margin-top: 10px;
         }
 
-        .matrix-row {
-            display: table-row;
-        }
-
-        .matrix-cell {
-            display: table-cell;
-            width: 50%;
-            padding: 5px;
-            vertical-align: top;
-            page-break-inside: avoid;
+        @media (min-width: 768px) {
+            .matrix-table {
+                grid-template-columns: 1fr 1fr;
+            }
         }
 
         .hacker-cert-node {
             background-color: #080c14;
             border: 1px solid #1e293b;
-            padding: 10px;
+            padding: 14px;
             height: 100%;
-            border-left: 2px solid #475569;
+            border-left: 3px solid #475569;
         }
 
         .hacker-cert-node.status-active {
-            border-left: 2px solid #38bdf8;
+            border-left: 3px solid #38bdf8;
             background-color: #0a1324;
         }
 
         .hacker-cert-node.status-planned {
-            border-left: 2px solid #a855f7;
+            border-left: 3px solid #a855f7;
         }
 
         .cert-header-title {
             font-weight: bold;
             color: #ffffff;
-            font-size: 9.5pt;
+            font-size: 14px;
+            margin-bottom: 2px;
         }
 
         .cert-authority-string {
-            font-size: 8pt;
+            font-size: 11px;
             color: #64748b;
             text-transform: uppercase;
-            margin-bottom: 6px;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
         }
 
         /* Tech Indicator Pulse mimics */
         .indicator-dot {
             display: inline-block;
-            width: 7px;
-            height: 7px;
+            width: 8px;
+            height: 8px;
             border-radius: 50%;
-            margin-right: 5px;
+            margin-right: 8px;
         }
         .ind-active { background-color: #38bdf8; box-shadow: 0 0 6px #38bdf8; }
         .ind-planned { background-color: #a855f7; box-shadow: 0 0 6px #a855f7; }
@@ -309,190 +305,162 @@
             background-color: #010409;
             border: 1px solid #1e293b;
             border-top: 3px solid #38bdf8;
-            padding: 14px;
-            font-size: 9pt;
+            padding: 16px;
+            font-size: 14px;
             color: #34d399;
-            margin-top: 20px;
+            margin-top: 25px;
             border-radius: 0 0 4px 4px;
-            page-break-inside: avoid;
         }
 
         .console-top-tabs {
-            font-size: 7.5pt;
+            font-size: 11px;
             color: #64748b;
-            margin-bottom: 8px;
+            margin-bottom: 12px;
             text-transform: uppercase;
             letter-spacing: 1px;
             border-bottom: 1px dashed #1e293b;
-            padding-bottom: 4px;
+            padding-bottom: 6px;
         }
     </style>
 </head>
 <body>
 
-    <div class="top-diagnostic-bar"></div>
+    <div class="portfolio-container">
+        <div class="top-diagnostic-bar"></div>
 
-    <!-- Dashboard Operations Header -->
-    <div class="terminal-dashboard-header">
-        <div class="header-layout">
-            <div class="header-left">
-                <h1>Mel-Adrien Lawrence Enzo Dodin</h1>
-                <div class="sub-identity">SEC-HANDLE: Adrilaw // Kidpentester</div>
-                <div class="visual-tag-container">
-                    <span class="tech-tag">Offensive Infrastructure</span>
-                    <span class="tech-tag">Hardware Injection</span>
-                    <span class="tech-tag blue-team">Parrot Security Admin</span>
+        <div class="terminal-dashboard-header">
+            <div class="header-layout">
+                <div class="header-left">
+                    <h1>Mel-Adrien Lawrence Enzo Dodin</h1>
+                    <div class="sub-identity">SEC-HANDLE: Adrilaw // Kidpentester</div>
+                    <div class="visual-tag-container">
+                        <span class="tech-tag">Offensive Infrastructure</span>
+                        <span class="tech-tag">Hardware Injection</span>
+                        <span class="tech-tag blue-team">Parrot Security Admin</span>
+                    </div>
+                </div>
+                <div class="header-right">
+                    <strong>REPOSITORY:</strong> github.com/Adrilaw<br>
+                    <strong>LOCATION:</strong> Mauritius Remote Node<br>
+                    <strong>RUNTIME:</strong> 8 Years Active Intel Labs<br>
+                    <strong>FRAMEWORKS:</strong> Win32/C2/Phish-Matrix
                 </div>
             </div>
-            <div class="header-right">
-                <strong>REPOSITORY:</strong> github.com/Adrilaw<br>
-                <strong>LOCATION:</strong> Mauritius Remote Node<br>
-                <strong>RUNTIME:</strong> 8 Years Active Intel Labs<br>
-                <strong>FRAMEWORKS:</strong> Win32/C2/Phish-Matrix
-            </div>
         </div>
-    </div>
 
-    <!-- Section 01: Telemetry -->
-    <div class="section-header-node"><span>[SYS_NODE 0x01]</span> Telemetry Operational Assessment</div>
-    <p>
-        Highly agile offensive infrastructure engineer and tactical security analyst backed by **8 years of verifiable hacking knowledge**. 
-        As the co-founder of the defensive mitigation group <span class="alert-green">Red Parakeet</span>, I specialize in the architecture of bespoke command networks, payload optimization, and adversarial risk testing. Experienced in traversing multi-tier defense matrices through physical security bypasses, advanced telephony vishing execution, and specialized low-level device weaponization.
-    </p>
-
-    <!-- Section 02: Modular Skill Dashboard Panels -->
-    <div class="section-header-node"><span>[SYS_NODE 0x02]</span> Core Technical Specializations & Repositories</div>
-    <div class="panel-container">
-        <!-- Panel Left -->
-        <div class="panel-node">
-            <div class="panel-title-bar">Vector_Attack_Matrices.cfg</div>
-            <div class="panel-body-box">
-                <ul>
-                    <li><strong>Physical Red Teaming:</strong> Bypassing Windows 11 local authentication models, recovery-mode context manipulation, and persistent domain entry points.</li>
-                    <li><strong>Social Engineering Engine:</strong> High-impact enterprise vishing (voice impersonation), spoofed identity landing matrices, and authentication extraction.</li>
-                    <li><strong>Hardware Injection:</strong> Blueprinting custom ATtiny85 microprocessor layouts, deployment of BadUSB attack hardware.</li>
-                </ul>
-            </div>
-        </div>
-        <!-- Panel Right -->
-        <div class="panel-node">
-            <div class="panel-title-bar">System_Languages_Runtime.env</div>
-            <div class="panel-body-box">
-                <ul>
-                    <li><strong>Functional Coding:</strong> Python (automated vulnerability scripts), C++ (WinAPI structures, custom shellcode packing), Bash, PowerShell, and SQL injection matrices.</li>
-                    <li><strong>Core Management:</strong> Full configuration management, update matrices coordination, and infrastructure administration for global <span class="alert-purple">Parrot Security OS</span> groups.</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-
-    <!-- Section 03: Projects and Active Engineering -->
-    <div class="section-header-node"><span>[SYS_NODE 0x03]</span> Active Technical Implementations & Code Contributions</div>
-    
-    <div class="infra-card">
-        <div class="infra-meta-node">[SRC: CORE_CONTRIB]</div>
-        <div class="infra-title">Kali NetHunter Open Source Project</div>
-        <div class="infra-subtitle">Kernel Architecture & HID Injection Subsystems</div>
-        <p style="margin: 0; font-size: 9.5pt; color: #cbd5e1;">
-            Engineered custom code segments and compiled device-specific Android kernel trees to natively support advanced raw Human Interface Device (HID) automated keystroke script vectors on external targeted systems.
+        <div class="section-header-node"><span>[SYS_NODE 0x01]</span> Telemetry Operational Assessment</div>
+        <p>
+            Highly agile offensive infrastructure engineer and tactical security analyst backed by **8 years of verifiable hacking knowledge**. 
+            As the co-founder of the defensive mitigation group <span class="alert-green">Red Parakeet</span>, I specialize in the architecture of bespoke command networks, payload optimization, and adversarial risk testing. Experienced in traversing multi-tier defense matrices through physical security bypasses, advanced telephony vishing execution, and specialized low-level device weaponization.
         </p>
-    </div>
 
-    <div class="infra-card">
-        <div class="infra-meta-node">[SRC: PRIVATE_LAB]</div>
-        <div class="infra-title">MedusaPhisher & Phantom Shell Suites</div>
-        <div class="infra-subtitle">Custom C2 Command Links & Endpoint Evasion Substructures</div>
-        <p style="margin: 0; font-size: 9.5pt; color: #cbd5e1;">
-            Designed internal training C2 code bases with polymorphic payload obfuscation architectures engineered specifically to neutralize dynamic detection monitoring within strict Active Directory client pools.
-        </p>
-    </div>
-
-    <!-- Section 04: Academic Node -->
-    <div class="section-header-node"><span>[SYS_NODE 0x04]</span> Institutional Security Validations</div>
-    <ul>
-        <li><strong>OTHM Level 5 Extended Diploma in Cybersecurity</strong> — Certified proficiency validation encompassing cryptographic infrastructure, architecture threat intelligence, and high-level enterprise defense schemas.</li>
-        <li><strong>BSc (Hons) Cybersecurity</strong> [Top-Up Academic Track] — Actively pursuing advanced degree framework emphasizing modern system assurance modeling and macro security alignment.</li>
-    </ul>
-
-    <!-- Section 05: Certification Roadmap Matrix Layout -->
-    <div class="section-header-node"><span>[SYS_NODE 0x05]</span> Cyber Assessment Tracks & Milestones</div>
-    <p style="margin-bottom: 8px;">Target paths explicitly constructed to encompass comprehensive application assessment, physical domain destruction, and next-gen AI threat landscapes.</p>
-    
-    <div class="matrix-table">
-        <div class="matrix-row">
-            <div class="matrix-cell">
-                <div class="hacker-cert-node status-active">
-                    <div class="cert-header-title">Burp Suite Certified Practitioner (BSCP)</div>
-                    <div class="cert-authority-string"><span class="indicator-dot ind-active"></span>PortSwigger // Active Readiness</div>
-                    <p style="font-size: 9pt; margin: 0; color: #94a3b8;">Manual web framework bypasses, HTTP request smuggling, asynchronous race exploits, and structural server validation.</p>
+        <div class="section-header-node"><span>[SYS_NODE 0x02]</span> Core Technical Specializations & Repositories</div>
+        <div class="panel-container">
+            <div class="panel-node">
+                <div class="panel-title-bar">Vector_Attack_Matrices.cfg</div>
+                <div class="panel-body-box">
+                    <ul>
+                        <li><strong>Physical Red Teaming:</strong> Bypassing Windows 11 local authentication models, recovery-mode context manipulation, and persistent domain entry points.</li>
+                        <li><strong>Social Engineering Engine:</strong> High-impact enterprise vishing (voice impersonation), spoofed identity landing matrices, and authentication extraction.</li>
+                        <li><strong>Hardware Injection:</strong> Blueprinting custom ATtiny85 microprocessor layouts, deployment of BadUSB attack hardware.</li>
+                    </ul>
                 </div>
             </div>
-            <div class="matrix-cell">
-                <div class="hacker-cert-node status-active">
-                    <div class="cert-header-title">Certified Offensive AI Expert (COAE)</div>
-                    <div class="cert-authority-string"><span class="indicator-dot ind-active"></span>Hack The Box // Active Readiness</div>
-                    <p style="font-size: 9pt; margin: 0; color: #94a3b8;">Neural model poisoning, prompt injection extraction loops, and attacking foundational language processing pipelines.</p>
+            <div class="panel-node">
+                <div class="panel-title-bar">System_Languages_Runtime.env</div>
+                <div class="panel-body-box">
+                    <ul>
+                        <li><strong>Functional Coding:</strong> Python (automated vulnerability scripts), C++ (WinAPI structures, custom shellcode packing), Bash, PowerShell, and SQL injection matrices.</li>
+                        <li><strong>Core Management:</strong> Full configuration management, update matrices coordination, and infrastructure administration for global <span class="alert-purple">Parrot Security OS</span> groups.</li>
+                    </ul>
                 </div>
             </div>
         </div>
+
+        <div class="section-header-node"><span>[SYS_NODE 0x03]</span> Active Technical Implementations & Code Contributions</div>
         
-        <div class="matrix-row">
-            <div class="matrix-cell">
-                <div class="hacker-cert-node status-active">
-                    <div class="cert-header-title">Certified Wi-Fi Pentesting Expert (CWPE)</div>
-                    <div class="cert-authority-string"><span class="indicator-dot ind-active"></span>Wireless Security // Active Readiness</div>
-                    <p style="font-size: 9pt; margin: 0; color: #94a3b8;">802.11 Link manipulation, WPA3 enterprise authenticating bypasses, rogue base station array setups.</p>
-                </div>
+        <div class="infra-card">
+            <div class="infra-meta-node">[SRC: CORE_CONTRIB]</div>
+            <div class="infra-title">Kali NetHunter Open Source Project</div>
+            <div class="infra-subtitle">Kernel Architecture & HID Injection Subsystems</div>
+            <p style="margin: 0; color: #cbd5e1;">
+                Engineered custom code segments and compiled device-specific Android kernel trees to natively support advanced raw Human Interface Device (HID) automated keystroke script vectors on external targeted systems.
+            </p>
+        </div>
+
+        <div class="infra-card">
+            <div class="infra-meta-node">[SRC: PRIVATE_LAB]</div>
+            <div class="infra-title">MedusaPhisher & Phantom Shell Suites</div>
+            <div class="infra-subtitle">Custom C2 Command Links & Endpoint Evasion Substructures</div>
+            <p style="margin: 0; color: #cbd5e1;">
+                Designed internal training C2 code bases with polymorphic payload obfuscation architectures engineered specifically to neutralize dynamic detection monitoring within strict Active Directory client pools.
+            </p>
+        </div>
+
+        <div class="section-header-node"><span>[SYS_NODE 0x04]</span> Institutional Security Validations</div>
+        <ul>
+            <li><strong>OTHM Level 5 Extended Diploma in Cybersecurity</strong> — Certified proficiency validation encompassing cryptographic infrastructure, architecture threat intelligence, and high-level enterprise defense schemas.</li>
+            <li><strong>BSc (Hons) Cybersecurity</strong> [Top-Up Academic Track] — Actively pursuing advanced degree framework emphasizing modern system assurance modeling and macro security alignment.</li>
+        </ul>
+
+        <div class="section-header-node"><span>[SYS_NODE 0x05]</span> Cyber Assessment Tracks & Milestones</div>
+        <p style="margin-bottom: 12px;">Target paths explicitly constructed to encompass comprehensive application assessment, physical domain destruction, and next-gen AI threat landscapes.</p>
+        
+        <div class="matrix-table">
+            <div class="hacker-cert-node status-active">
+                <div class="cert-header-title">Burp Suite Certified Practitioner (BSCP)</div>
+                <div class="cert-authority-string"><span class="indicator-dot ind-active"></span>PortSwigger // Active Readiness</div>
+                <p style="font-size: 13px; margin: 0; color: #94a3b8;">Manual web framework bypasses, HTTP request smuggling, asynchronous race exploits, and structural server validation.</p>
             </div>
-            <div class="matrix-cell">
-                <div class="hacker-cert-node status-planned">
-                    <div class="cert-header-title">Certified Red Team Professional (CRTP)</div>
-                    <div class="cert-authority-string"><span class="indicator-dot ind-planned"></span>Altered Security // Scheduled Roadmap</div>
-                    <p style="font-size: 9pt; margin: 0; color: #94a3b8;">Active Directory structure compromise, token theft, pass-the-hash persistence mappings, and trust verification bypasses.</p>
-                </div>
+            
+            <div class="hacker-cert-node status-active">
+                <div class="cert-header-title">Certified Offensive AI Expert (COAE)</div>
+                <div class="cert-authority-string"><span class="indicator-dot ind-active"></span>Hack The Box // Active Readiness</div>
+                <p style="font-size: 13px; margin: 0; color: #94a3b8;">Neural model poisoning, prompt injection extraction loops, and attacking foundational language processing pipelines.</p>
+            </div>
+
+            <div class="hacker-cert-node status-active">
+                <div class="cert-header-title">Certified Wi-Fi Pentesting Expert (CWPE)</div>
+                <div class="cert-authority-string"><span class="indicator-dot ind-active"></span>Wireless Security // Active Readiness</div>
+                <p style="font-size: 13px; margin: 0; color: #94a3b8;">802.11 Link manipulation, WPA3 enterprise authenticating bypasses, rogue base station array setups.</p>
+            </div>
+
+            <div class="hacker-cert-node status-planned">
+                <div class="cert-header-title">Certified Red Team Professional (CRTP)</div>
+                <div class="cert-authority-string"><span class="indicator-dot ind-planned"></span>Altered Security // Scheduled Roadmap</div>
+                <p style="font-size: 13px; margin: 0; color: #94a3b8;">Active Directory structure compromise, token theft, pass-the-hash persistence mappings, and trust verification bypasses.</p>
+            </div>
+
+            <div class="hacker-cert-node status-planned">
+                <div class="cert-header-title">Certified Red Team Operator (CRTO)</div>
+                <div class="cert-authority-string"><span class="indicator-dot ind-planned"></span>Zero-Point Security // Scheduled Roadmap</div>
+                <p style="font-size: 13px; margin: 0; color: #94a3b8;">Advanced Cobalt Strike operation pipelines, memory scanning evasion, parent process spoofing implementations.</p>
+            </div>
+
+            <div class="hacker-cert-node status-planned">
+                <div class="cert-header-title">Offensive Security Certified Professional (OSCP)</div>
+                <div class="cert-authority-string"><span class="indicator-dot ind-planned"></span>OffSec // Scheduled Roadmap</div>
+                <p style="font-size: 13px; margin: 0; color: #94a3b8;">Multi-system network compromise sequencing, interactive pivoting, buffer restriction management under timed conditions.</p>
+            </div>
+
+            <div class="hacker-cert-node status-planned">
+                <div class="cert-header-title">Certified Red Team Expert (CRTE)</div>
+                <div class="cert-authority-string"><span class="indicator-dot ind-planned"></span>Altered Security // Scheduled Roadmap</div>
+                <p style="font-size: 13px; margin: 0; color: #94a3b8;">Cross-forest forest trust dominance, MSSQL DB pivot loops, enterprise domain forest takeover paths.</p>
+            </div>
+
+            <div class="hacker-cert-node status-planned">
+                <div class="cert-header-title">Offensive Security Experienced Pentester (OSEP)</div>
+                <div class="cert-authority-string"><span class="indicator-dot ind-planned"></span>OffSec // Scheduled Roadmap</div>
+                <p style="font-size: 13px; margin: 0; color: #94a3b8;">Bypassing endpoint application whitelisting blocks, advanced process space runtime manipulation, custom payload packing.</p>
             </div>
         </div>
 
-        <div class="matrix-row">
-            <div class="matrix-cell">
-                <div class="hacker-cert-node status-planned">
-                    <div class="cert-header-title">Certified Red Team Operator (CRTO)</div>
-                    <div class="cert-authority-string"><span class="indicator-dot ind-planned"></span>Zero-Point Security // Scheduled Roadmap</div>
-                    <p style="font-size: 9pt; margin: 0; color: #94a3b8;">Advanced Cobalt Strike operation pipelines, memory scanning evasion, parent process spoofing implementations.</p>
-                </div>
-            </div>
-            <div class="matrix-cell">
-                <div class="hacker-cert-node status-planned">
-                    <div class="cert-header-title">Offensive Security Certified Professional (OSCP)</div>
-                    <div class="cert-authority-string"><span class="indicator-dot ind-planned"></span>OffSec // Scheduled Roadmap</div>
-                    <p style="font-size: 9pt; margin: 0; color: #94a3b8;">Multi-system network compromise sequencing, interactive pivoting, buffer restriction management under timed conditions.</p>
-                </div>
-            </div>
+        <div class="interactive-console-unit">
+            <div class="console-top-tabs">Session Monitor: Kidpentester@redparakeet // Link established // 200 OK</div>
+            Kidpentester@redparakeet:~# cat mission_statement.txt<br>
+            <span style="color: #ffffff; font-weight: bold;">"I prioritize working with teams that demand elite, innovative technical capability. Let's combine forces to upfront your business defensive posture and systematically shatter incoming adversarial vectors before they reach your perimeter."</span>
         </div>
-
-        <div class="matrix-row">
-            <div class="matrix-cell">
-                <div class="hacker-cert-node status-planned">
-                    <div class="cert-header-title">Certified Red Team Expert (CRTE)</div>
-                    <div class="cert-authority-string"><span class="indicator-dot ind-planned"></span>Altered Security // Scheduled Roadmap</div>
-                    <p style="font-size: 9pt; margin: 0; color: #94a3b8;">Cross-forest forest trust dominance, MSSQL DB pivot loops, enterprise domain forest takeover paths.</p>
-                </div>
-            </div>
-            <div class="matrix-cell">
-                <div class="hacker-cert-node status-planned">
-                    <div class="cert-header-title">Offensive Security Experienced Pentester (OSEP)</div>
-                    <div class="cert-authority-string"><span class="indicator-dot ind-planned"></span>OffSec // Scheduled Roadmap</div>
-                    <p style="font-size: 9pt; margin: 0; color: #94a3b8;">Bypassing endpoint application whitelisting blocks, advanced process space runtime manipulation, custom payload packing.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Active Terminal Box Unit -->
-    <div class="interactive-console-unit">
-        <div class="console-top-tabs">Session Monitor: Kidpentester@redparakeet // Link established // 200 OK</div>
-        Kidpentester@redparakeet:~# cat mission_statement.txt<br>
-        <span style="color: #ffffff; font-weight: bold;">"I prioritize working with teams that demand elite, innovative technical capability. Let's combine forces to upfront your business defensive posture and systematically shatter incoming adversarial vectors before they reach your perimeter."</span>
     </div>
 
 </body>
