@@ -15,9 +15,11 @@
 
 My cybersecurity journey started unexpectedly back in **2019**, when I pulled off my first **FRP bypass** on an Android device. What seemed like a simple trick at the time turned into a turning point—I became obsessed with understanding how systems work underneath, how protections fail, and how creative thinking can break through barriers. That moment sparked everything.
 
-Since then, I’ve been steadily evolving from curiosity to capability. I build and share my tools and offensive experiments under **adrilaw** on GitHub, and I contribute to the mobile hacking community as **kidpentester** on XDA Developers. 
+Since then, I’ve been steadily evolving from curiosity to capability. I build and share my tools and offensive experiments under **Adrilaw** on GitHub, and I contribute to the mobile hacking community as **kidpentester** on XDA Developers. 
 
 A big part of my growth has come from working on **MedusaPhisher**, a custom script I designed to create various phishing login pages. Moreover, I’ve worked with **Offensive Security** on the open-source **Kali NetHunter** project, where I’ve explored and contributed to HID-style attack modules and custom kernel development.
+
+Moreover Im the Co-Founder of Red Parakeet Security Team an offensive security research and development company focused on building both open-source and commercial red teaming and penetration testing tools. We specialize in applying AI to offensive security, developing intelligent tooling for adversary simulation, security research, and advanced penetration testing. Our work also includes transforming microcontrollers and embedded devices into powerful red team platforms for wireless, hardware, and physical security assessments. Our mission is to equip security professionals with innovative, high-quality tools that advance offensive security capabilities while supporting responsible security research and defense.
 
 ---
 
@@ -117,9 +119,9 @@ Security consulting environment exposure:
 
 | Year | Phase | Milestone / Goal | Status |
 
-| **2026** | **Foundations** | OTHM Level 5 Diploma extended in Cyber Security | ⏳ |
+| **2026** | **Foundations** | OTHM Level 5 Diploma extended in Cyber Security | 🎓✅ |
 
-| **2026** | **Web & AI** | **BSCP (Burp Suite Certified)** **COAE (HTB Certified Offensive AI Expert)** + **PAPA (Practical AI Pentesting Associate)** | ⏳ |
+| **2026** | **Web & AI** | **BSCP (Burp Suite Certified)** **COAE (HTB Certified Offensive AI Expert)** + **CRTA (Certified Red Team Analyst)** | ⏳ |
 
 | **2026** | **Full-Stack** | **BSc (Hons) Top-up Enrollment** | **HTB Certified Wifi Pentesting Expert** | ⏳ |
 
@@ -131,13 +133,11 @@ Security consulting environment exposure:
 
 | **2028** | **Specialist** | **MSc Cybersecurity Enrollment** | ⏳ |
 
-| **2028** | **Specialist** | **CRTE (Red Team Expert)** + **CRTM (Red Team Master)** | ⏳ |
+| **2028** | **Specialist** | **CRTE (Certified Red Team Expert)** + **CRTM (Certified Red Team Master)** | ⏳ |
 
-| **2029** | **Advanced** | **HTB Certified Wireless Expert** + BDO Red Team Transition | ⏳ |
+| **2029** | **Advanced** | **CRTL (Certified Red Team Lead / CRTO II)** | ⏳ |
 
-| **2029** | **Advanced** | **CRTL (Red Team Lead / CRTO II)** | ⏳ |
-
-| **2030** | **Elite** | **MSc Graduation (Age 23)** | 🎓 |
+| **2030** | **Elite** | **MSc Graduation (Age 23)** | 🎓⏳ |
 
 | **2030** | **Elite** | **OSEP (OffSec Experienced Pentester)** | ⏳ |
 
