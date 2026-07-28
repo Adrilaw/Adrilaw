@@ -39,6 +39,8 @@ Offensive Security Specialist in development
 
 Kernel builder • Tool developer • Lab architect
 
+Co-Founder of Red Parakeet
+
 ---
 
 # 🧠 ABOUT ME
