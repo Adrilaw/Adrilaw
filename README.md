@@ -80,10 +80,15 @@ I approach pentesting and red teaming the same way I approach **surfing and rock
 ![Work](https://img.shields.io/badge/OCCUPATION-Cybersecurity_Analyst-black?style=for-the-badge&logo=workplace)
 
 Security consulting environment exposure:
+
 ✔ penetration testing reports
+
 ✔ vulnerability analysis
+
 ✔ risk frameworks (ISO 27001 / NIST)
+
 ✔ enterprise security operations
+
 ✔ red team methodology observation
 
 ---
@@ -93,10 +98,15 @@ Security consulting environment exposure:
 ![Build](https://img.shields.io/badge/PROJECTS-Offensive_Engineering-FF003C?style=flat-square)
 
 ✔ **Creation of Red Parakeet** (Building Offensive Security tools)
+
 ✔ **Custom Kali NetHunter kernel** (Samsung J8)
+
 ✔ **HID / BadUSB attack payloads** (Payload automation & reliability)
+
 ✔ **MedusaPhisher** - Complex phishing framework
+
 ✔ **Command & Control experiments**
+
 ✔ **Red team simulation labs**
 
 ---
