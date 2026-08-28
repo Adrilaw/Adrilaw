@@ -15,9 +15,9 @@
 
 My cybersecurity journey started unexpectedly back in **2019**, when I pulled off my first **FRP bypass** on an Android device. What seemed like a simple trick at the time turned into a turning point—I became obsessed with understanding how systems work underneath, how protections fail, and how creative thinking can break through barriers. That moment sparked everything.
 
-Since then, I’ve been steadily evolving from curiosity to capability. I build and share my tools and offensive experiments under **Adrilaw** on GitHub, and I contribute to the mobile hacking community as **kidpentester** on XDA Developers. 
+Since then, I’ve been steadily evolving from curiosity to capability. I build and share my tools and offensive experiments under **Adrilaw** on GitHub, and I contribute to the mobile hacking community as **Kidpentester** on XDA Developers. 
 
-A big part of my growth has come from working on **MedusaPhisher**, a custom script I designed to create various phishing login pages. Moreover, I’ve worked with **Offensive Security** on the open-source **Kali NetHunter** project, where I’ve explored and contributed to HID-style attack modules and custom kernel development.
+A big part of my growth has come from working on **MedusaPhisher**, a custom script I designed to create various phishing login pages. Moreover, I’ve worked with **Offensive Security** on the open-source **Kali NetHunter** project, where I’ve explored and contributed to HID-style attack modules and custom kernel development for the Samsung J8.
 
 Moreover Im the Co-Founder of Red Parakeet Security Team an offensive security research and development company focused on building both open-source and commercial red teaming and penetration testing tools. We specialize in applying AI to offensive security, developing intelligent tooling for adversary simulation, security research, and advanced penetration testing. Our work also includes transforming microcontrollers and embedded devices into powerful red team platforms for wireless, hardware, and physical security assessments. Our mission is to equip security professionals with innovative, high-quality tools that advance offensive security capabilities while supporting responsible security research and defense.
 
@@ -52,10 +52,15 @@ I simulate real-world cyber attacks, build offensive infrastructure, and enginee
 **Current Focus Areas:**
 ✔ Web Application Security & Recon
 ✔ Linux Privilege Escalation
+✔ Windows Privilege Escalation
+✔ Cloud Red Teaming
+✔ Active Directory Red Teaming
 ✔ USB HID Attack Vectors
 ✔ Bash & Python Scripting
 ✔ Vulnerability Research
 ✔ Building FUD Malware for testing purposes
+✔ Malware Analysis
+✔ Digital Forensics 
 
 ---
 
@@ -87,6 +92,7 @@ Security consulting environment exposure:
 
 ![Build](https://img.shields.io/badge/PROJECTS-Offensive_Engineering-FF003C?style=flat-square)
 
+✔ **Creation of Red Parakeet** (Building Offensive Security tools)
 ✔ **Custom Kali NetHunter kernel** (Samsung J8)
 ✔ **HID / BadUSB attack payloads** (Payload automation & reliability)
 ✔ **MedusaPhisher** - Complex phishing framework
