@@ -51,15 +51,25 @@ I simulate real-world cyber attacks, build offensive infrastructure, and enginee
 
 **Current Focus Areas:**
 ✔ Web Application Security & Recon
+
 ✔ Linux Privilege Escalation
+
 ✔ Windows Privilege Escalation
+
 ✔ Cloud Red Teaming
+
 ✔ Active Directory Red Teaming
+
 ✔ USB HID Attack Vectors
+
 ✔ Bash & Python Scripting
+
 ✔ Vulnerability Research
+
 ✔ Building FUD Malware for testing purposes
+
 ✔ Malware Analysis
+
 ✔ Digital Forensics 
 
 ---
